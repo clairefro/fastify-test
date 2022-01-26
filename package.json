@@ -4,16 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^14.3.1",
     "fastify": "^3.27.0",
     "fastify-openapi-glue": "^2.6.5",
+    "mongoose": "^6.1.8",
     "nanoid": "^3.2.0"
   },
   "devDependencies": {
