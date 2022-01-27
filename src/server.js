@@ -1,7 +1,7 @@
 const fastify = require("fastify")({ logger: true });
 const openapiGlue = require("fastify-openapi-glue");
 const mongoose = require("mongoose");
-const Service = require("./service.js");
+const Service = require("./service");
 
 // initialize access to .env variables like `process.env.YOUR_VAR_NAME`
 require("dotenv").config();

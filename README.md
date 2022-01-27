@@ -196,7 +196,7 @@ fastify.delete("/restaurants/:id", async (req, res) => {
 
   if (foundIndex > -1) {
     // Delete restaurant from database
-    restaurants = restaurants.splice(foundIndex, 1);
+    restaurants.splice(foundIndex, 1);
     // send empty response OK
     res.code(204).send();
   } else {
